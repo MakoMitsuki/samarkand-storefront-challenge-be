@@ -1,0 +1,173 @@
+{
+  "products": [
+    {
+      "productId": "20",
+      "currency": "CNY",
+      "name": "Barry M - Get Shapey Brow and Eye Shadow Tin",
+      "description": "Barry M - Get Shapey Brow and Eye Shadow Tin",
+      "images": [
+        {
+          "ext": ".png",
+          "mime": "image/png",
+          "url": "https://assets.ec-haigou.com/content/d8b783eedfe745958640067d7f8c5650.png"
+        },
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/7f7e26143a9949f3ba29f818b1571c0f.jpg"
+        },
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/da83b5dd03b54664a0257b5e3901b279.jpg"
+        }
+      ],
+      "isOnsale": true,
+      "price": 33.8,
+      "country": "The United Kingdom"
+    },
+    {
+      "productId": "21",
+      "currency": "CNY",
+      "name": "Barry M - Chisel Cheeks Contour Cream Kit",
+      "description": "Barry M - Chisel Cheeks Contour Cream Kit",
+      "images": [
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/5e56f5f33be9492d8a73f4ef958a66c6.jpg"
+        }
+      ],
+      "isOnsale": false,
+      "price": 39,
+      "country": "The United Kingdom"
+    },
+    {
+      "productId": "22",
+      "currency": "CNY",
+      "name": "FadeOut - Whitening  Age Protection Day Cream SPF25 50ml",
+      "description": "FadeOut - Whitening  Age Protection Day Cream SPF25 50ml",
+      "images": [
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/a1cec1113f5a4eacac5c8fb993cc23bb.jpg"
+        }
+      ],
+      "isOnsale": true,
+      "price": 46,
+      "country": "The United Kingdom"
+    },
+    {
+      "productId": "23",
+      "currency": "CNY",
+      "name": "FadeOut - Whitening  Age Protection Night Cream 50ml",
+      "description": "FadeOut - Whitening  Age Protection Night Cream 50ml",
+      "images": [
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/bf33aed46a8849ffb940ebc2fb31a2d2.jpg"
+        }
+      ],
+      "isOnsale": true,
+      "price": 46,
+      "country": "The United Kingdom"
+    },
+    {
+      "productId": "24",
+      "currency": "CNY",
+      "name": "FadeOut - Whitening  Vitamin Enriched Day Cream SPF25 50ml",
+      "description": "FadeOut - Whitening  Vitamin Enriched Day Cream SPF25 50ml",
+      "images": [
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/35dcd3f425eb474c9620c730908de3ae.jpg"
+        }
+      ],
+      "isOnsale": true,
+      "price": 89,
+      "country": "The United Kingdom"
+    },
+    {
+      "productId": "25",
+      "currency": "CNY",
+      "name": "FadeOut - Whitening  Vitamin Enriched Night Cream 50ml",
+      "description": "FadeOut - Whitening  Vitamin Enriched Night Cream 50ml",
+      "images": [
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/e0a5c5ac26a040328ae338c9291c261a.jpg"
+        }
+      ],
+      "isOnsale": true,
+      "price": 89,
+      "country": "The United Kingdom"
+    },
+    {
+      "productId": "26",
+      "currency": "CNY",
+      "name": "Aloe Vera ESI - Argan gel 200ml",
+      "description": "Aloe Vera ESI - Argan gel 200ml",
+      "images": [
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/a738ef8e204b47b9ae6fc307e0d06915.jpg"
+        }
+      ],
+      "isOnsale": true,
+      "price": 52,
+      "country": "United Kingdom"
+    },
+    {
+      "productId": "27",
+      "currency": "CNY",
+      "name": "Aloe Vera ESI Gel (vitamin E & tea tree) 200ml",
+      "description": "",
+      "images": [
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.com/content/3b51287418ec4594999d6bc0f9723198.jpg"
+        }
+      ],
+      "isOnsale": false,
+      "price": 52,
+      "country": "Italy"
+    },
+    {
+      "productId": "28",
+      "currency": "CNY",
+      "name": "Aloedermal Intimaid Delicate Menthol",
+      "description": "Aloedermal Intimaid Delicate Menthol",
+      "images": [],
+      "isOnsale": true,
+      "price": 59,
+      "country": "Italy"
+    },
+    {
+      "productId": "29",
+      "currency": "CNY",
+      "name": "Aloedermal Intimaid Delicate Camomile",
+      "description": "Aloedermal Intimaid Delicate Camomile",
+      "images": [
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.sta.samarkand.io/content/2fc85707cba6434c924a7d1f57226a2b.jpg"
+        },
+        {
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "url": "https://assets.ec-haigou.sta.samarkand.io/content/db2acc0485d24c1a84a0958db83601b7.jpg"
+        }
+      ],
+      "isOnsale": true,
+      "price": 59,
+      "country": "Italy"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "esModuleInterop": true,
+      "jsx": "react",
+      "lib": ["esnext"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noEmit": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "pretty": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "strict": true,
+      "target": "esnext",
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist", "public"]
+  }
+  

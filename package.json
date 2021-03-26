@@ -1,5 +1,5 @@
 {
-  "name": "be-challange",
+  "name": "be-challenge",
   "version": "1.0.0",
   "description": "An endpoint to serve product listings",
   "main": "src/app.js",

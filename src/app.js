@@ -20,6 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv = __importStar(require("dotenv"));
+const product_by_id_route_1 = require("./routes/product-by-id.route");
 const product_listing_route_1 = require("./routes/product-listing.route");
 dotenv.config();
 const express = require("express");
@@ -28,6 +29,7 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json({ limit: "16mb" }));
 // ROUTES
 app.get(`/product-listing`, product_listing_route_1.productListingRouteHandler);
+app.get(`/product-by-id`, product_by_id_route_1.productByIdRouteHandler);
 app.listen(process.env.PORT, () => {
     console.log(process.env.APP_NAME + " now listening at port: " + process.env.PORT);
 });

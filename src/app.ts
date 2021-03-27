@@ -1,5 +1,13 @@
-function test(start: string){ 
-    console.log(`🚀 ${start}`);
-}
+import { storefrontRouteHandler } from "./routes/storefront.route";
 
-test('✅');
+import express = require("express");
+const app = express();
+import bodyParser = require("body-parser");
+app.use(bodyParser.json({ limit: "16mb" }));
+
+// ROUTES
+app.get(`/storefront`, storefrontRouteHandler);
+
+app.listen(3037, () => {
+    console.log("Now listening at port: " + 3037);
+});

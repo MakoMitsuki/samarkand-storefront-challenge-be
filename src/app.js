@@ -29,5 +29,5 @@ app.use(bodyParser.json({ limit: "16mb" }));
 // ROUTES
 app.get(`/product-listing`, storefront_route_1.storefrontRouteHandler);
 app.listen(process.env.PORT, () => {
-    console.log("Now listening at port: " + process.env.PORT);
+    console.log(process.env.APP_NAME + " now listening at port: " + process.env.PORT);
 });

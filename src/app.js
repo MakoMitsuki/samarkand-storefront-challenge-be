@@ -20,14 +20,14 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv = __importStar(require("dotenv"));
-const storefront_route_1 = require("./routes/storefront.route");
+const product_listing_route_1 = require("./routes/product-listing.route");
 dotenv.config();
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 app.use(bodyParser.json({ limit: "16mb" }));
 // ROUTES
-app.get(`/product-listing`, storefront_route_1.storefrontRouteHandler);
+app.get(`/product-listing`, product_listing_route_1.storefrontRouteHandler);
 app.listen(process.env.PORT, () => {
     console.log(process.env.APP_NAME + " now listening at port: " + process.env.PORT);
 });

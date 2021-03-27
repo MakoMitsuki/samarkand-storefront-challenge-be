@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
 
-import { storefrontRouteHandler } from "./routes/storefront.route";
+import { storefrontRouteHandler } from "./routes/product-listing.route";
 
 dotenv.config();
 import express = require("express");

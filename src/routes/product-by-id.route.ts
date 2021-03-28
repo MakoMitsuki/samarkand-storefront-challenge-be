@@ -6,7 +6,7 @@ export function productByIdRouteHandler(req: Request, res: Response) {
         res.status(400).send();
     } else {
         const productListing = fetchProductDb();
-        const product = productListing.filter((p: any) => p.productId === req.params.id);
+        const product = productListing.find((p: any) => p.productId === req.params.id);
         res.status(200).send(product);
     }
 }

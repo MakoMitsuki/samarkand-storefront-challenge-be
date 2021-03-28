@@ -7,11 +7,12 @@
     "lint": "node node_modules/tslint/bin/tslint 'src/**/*.ts'",
     "build": "npm run tsc && npm run lint",
     "tsc": "node node_modules/typescript/lib/tsc.js",
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "qstart": "npm run build && npm run start"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/samarkand-storefront-saas/samarkand-storefront-challenge-be.git"
+    "url": "git@github.com:MakoMitsuki/samarkand-storefront-challenge-be.git"
   },
   "author": "",
   "license": "ISC",

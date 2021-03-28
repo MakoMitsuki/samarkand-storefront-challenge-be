@@ -7,9 +7,11 @@
 
 ## How to run
 1. Make sure you have [Node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) installed.
-2. In your console, point to the project directory then run ``npm run build`` then ``npm run start``.
+2. In your console, point to the project directory then run ``npm run qstart`` to build and start.
 
 You can use [Postman](https://www.postman.com/downloads/) to mock the API
 
 ## Routes
 * ``/product-listing`` - grabs entire product listing
+* ``/product-by-id/:id`` - grabs a product by the product id
+* ``/products-on-sale`` - grabs the products that are on sale

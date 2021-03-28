@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700ff008-26ce-43b3-a39b-6341a8e298ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/types/product.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/fetch-product-db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/fetch-product-db.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/product-listing.route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/product-listing.route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/product-by-id.route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/product-by-id.route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/products-on-sale.route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/products-on-sale.route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/product.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

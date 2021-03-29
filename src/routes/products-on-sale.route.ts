@@ -1,5 +1,5 @@
 import {Request, Response} from "express";
-import { fetchProductsOnSale } from "../data/fetch-product-db";
+import { fetchProductsOnSale } from "../functions/fetch-product-db";
 import { Product } from "../types/product";
 
 export function productsOnSaleRouteHandler(req: Request, res: Response) {

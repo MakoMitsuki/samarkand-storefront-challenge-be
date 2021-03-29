@@ -1,5 +1,5 @@
+import * as db from "../data/products.json";
 import { Product } from "../types/product";
-import * as db from "./products.json";
 
 // Imports the JSON file and parses it as a list of Products
 export function fetchProductDb(): Product[] {

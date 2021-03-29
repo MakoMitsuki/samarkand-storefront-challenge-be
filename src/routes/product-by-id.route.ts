@@ -1,13 +1,16 @@
-import {Request, Response} from "express";
-import { fetchProductDb } from "../data/fetch-product-db";
+import { Request, Response } from "express";
+import { fetchProductById } from "../data/fetch-product-db";
 import { Product } from "../types/product";
 
 export function productByIdRouteHandler(req: Request, res: Response) {
     if (!req.params.id) {
-        res.status(400).send();
+        res.sendStatus(404);
     } else {
-        const productListing = fetchProductDb();
-        const p = productListing.find((pr: Product) => pr.productId === req.params.id);
-        res.status(200).send(p);
+        const product: any = fetchProductById(req.params.id);
+        if (product) {
+            res.status(200).send(product);
+        } else {
+            res.status(404).send("Can't find product with the id " + req.params.id);
+        }
     }
 }

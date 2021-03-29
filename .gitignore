@@ -1,5 +1,4 @@
 node_modules
-.idea
 package-lock.json
 
 *.js
@@ -7,4 +6,5 @@ package-lock.json
 .eslintcache
 
 dist/
+.idea/
 
